@@ -11,5 +11,5 @@ Transformation involves several cleanup steps, including merging data, removing 
 I created a SQL database with two tables: (i) movies; and (ii) ratings. The transformed and cleaned-up data is transferred directly to the dtatabase with the 'to_sql' method.  
 
 ### NOTES: Please note the followinng:
-(1) The sources data files were too large to load, and github generated a file size error and I am not sure if all data was uploaded. I've retained the file_dir pointing to my local directory for this reason. Please use local files to run the code.  
+(1) The sources data files were too large to load; github generated a file size error and I am not sure if all data was uploaded. I've retained the file_dir pointing to my local directory for this reason. Please use local files to run the code.  
 (2) I commented the sql query to split the ratings input because it took significant time to run; please uncomment to run the code block.  
