@@ -2,7 +2,7 @@
 We have three data sources for movies information that we need to extract, transform and load. The code is designed to open files, clean up the data, and populate a SQL database.
 
 ### Part_1: Extraction  
-I defined a new function that takes a json and two csv files as arguments. Note that the code assumes that the wiki data is in json format, and the kaggle and ratings data are in csv file..  
+I defined a new function that takes a json and two csv files as arguments. Note that the code assumes that the wiki data is in json format, and the kaggle and ratings data are in csv file.  
 
 ### Part_2: Transformation  
 Transformation involves several cleanup steps, including merging data, removing duplicates, filling in gaps, selecting the data source when more than one exists, and deleting unwanted or incomplete columns. This is done with code that perform these steps on the raw data.  
